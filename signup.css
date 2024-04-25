@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: darkslategray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    gap: 16px;
+    padding: 16px 8px;
+}
+.page{
+        padding-top: 100px;
+        height: 100vh;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color:rgb(79, 92, 90);
+        color: #b1aaaa;
+        /*flex-direction: column;
+        gap: 24px;*/
+}
+.page form{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.page a{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}

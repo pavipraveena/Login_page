@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: darkslategray;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 8px;
+}
+
+.navbar .menu{
+    display: flex;
+    gap:24px;
+}
+
+.navbar .menu a{
+    color: rgb(132, 124, 124);
+    text-decoration: none;
+}
+
+.navbar .menu a:hover{
+    color: white;
+}
